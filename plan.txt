@@ -1,0 +1,9 @@
+Classes: BankAccount, Main(ATM)
+
+BankAccount should have a balance, pin, and a userName. Should be able to transfer money to
+another account. Should also be able to accept a transfer from another account. Should also be
+able to withdraw and deposit money. Shouldn't allow account to go into debt.
+
+The Atm should be able to complete the transfers between accounts and allow the user to
+withdraw and deposit money to their account. It should only allow these methods to be called
+once the correct pin has been entered. Should save list of all accounts.
